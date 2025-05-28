@@ -1,6 +1,30 @@
 
 
 const SimpleFrom = () => {
+
+    // const handlesubmit=e=>{
+    //     e.preventDefault();
+    //     console.log(e.target.text.value);
+    //     console.log(e.target.Email.value);
+        
+
+    // }
+
+
+    //  return (
+    //   <>
+    //     <form onSubmit={handlesubmit}>
+    //          <div>
+    //     <input type="text" />
+    //     <br />
+    
+    //     <input type="email" name="Email" id="" />
+    //     <br />
+    //     <input type="button" value="Submit" />
+    //   </div>
+    //     </form>
+    //   </>
+    //  );
     const handlesubmit =e =>{
         e.preventDefault();
         console.log(e.target.text.value);
